@@ -27,7 +27,7 @@ Param(
   [ValidateNotNullOrEmpty()]
   [string]$aadAppName,
 
-  [Parameter(Mandatory = $false,
+  [Parameter(Mandatory = $true,
              HelpMessage="Client secret of the AAD application that was created earlier")]
   [ValidateNotNullOrEmpty()]
   [string]$aadClientSecret,
